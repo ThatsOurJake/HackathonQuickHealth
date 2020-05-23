@@ -22,7 +22,7 @@ export default {
       if (error.response) {
         console.error(error.response);
       } else {
-        console.error(console.error);
+        console.error(error);
       }
     }
   },
