@@ -47,7 +47,7 @@ export const handlePostback = async (senderId, postback) => {
         await getStartedHandler(senderId);
         break;
       default:
-        console.warn(`Unknown: ${payload}`);
+        routeHandler(senderId, payload);
         break;
     }
   }

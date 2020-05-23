@@ -15,7 +15,7 @@ export const sendMenu = (senderId) =>
         },
         {
           title: 'Help me',
-          payload: 'HELP_ME',
+          payload: 'HELP_SELF',
         },
         {
           title: 'Help someone',

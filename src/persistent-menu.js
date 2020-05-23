@@ -24,7 +24,7 @@ export default {
                 {
                   type: 'postback',
                   title: 'Help me',
-                  payload: 'HELP_ME',
+                  payload: 'HELP_SELF',
                 },
                 {
                   type: 'postback',
