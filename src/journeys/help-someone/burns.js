@@ -145,7 +145,7 @@ export default {
           payload: 'HELP_SOMEONE_BURNS_2_1_1',
         },
         {
-          title: 'Okay, Thanks!',
+          title: 'No thanks',
           payload: 'MENU',
         },
       ],
