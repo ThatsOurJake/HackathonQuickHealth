@@ -1,0 +1,35 @@
+{
+  "name": "hackathon_quick_health",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src --exec babel-node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JKI12/HacathonQuickHealth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JKI12/HacathonQuickHealth/issues"
+  },
+  "homepage": "https://github.com/JKI12/HacathonQuickHealth#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "@sky-uk/eslint-config-sky": "32.0.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.1.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "koa": "^2.12.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^8.0.8"
+  }
+}
