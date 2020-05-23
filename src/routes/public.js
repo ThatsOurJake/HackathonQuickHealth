@@ -1,6 +1,7 @@
 import KoaRouter from 'koa-router';
 
 import config from '../config';
+import { handleMessage, handlePostback } from '../message-handler';
 
 const router = new KoaRouter();
 
@@ -10,7 +11,13 @@ router.post('/incoming', (ctx) => {
   if (body.object === 'page') {
     body.entry.forEach((entry) => {
       const event = entry.messaging[0];
-      console.log(event);
+      const senderId = event.sender.id;
+
+      if (event.message) {
+        handleMessage(senderId, event.message);
+      } else if (event.postback) {
+        handlePostback(senderId, event.postback);
+      }
     });
 
     ctx.body = 'EVENT_RECEIVED';
