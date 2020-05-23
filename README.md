@@ -20,3 +20,17 @@ docker run --env-file .env -p 3000:3000 <IMAGE_NAME>
 ```
 
 - You will probably have to use a service such as ngrok to https route to the local machine.
+
+## Sources
+Here are a list of sources used for various info and images:
+[https://www.nhs.uk/conditions/burns-and-scalds/](https://www.nhs.uk/conditions/burns-and-scalds/)
+
+[https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637](https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637)
+
+[https://www.nhsinform.scot/illnesses-and-conditions/injuries/skin-injuries/cuts-and-grazes](https://www.nhsinform.scot/illnesses-and-conditions/injuries/skin-injuries/cuts-and-grazes)
+
+[https://www.portsmouth.co.uk/health/first-aid-how-deal-fainting-1224139](https://www.portsmouth.co.uk/health/first-aid-how-deal-fainting-1224139)
+
+[https://www.sja.org.uk/get-advice/first-aid-advice/heart-conditions/heart-attack/](https://www.sja.org.uk/get-advice/first-aid-advice/heart-conditions/heart-attack/)
+
+[https://www.nhs.uk/conditions/cuts-and-grazes/](https://www.nhs.uk/conditions/cuts-and-grazes/)
