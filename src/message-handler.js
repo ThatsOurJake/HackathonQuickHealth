@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 import config from './config';
-import getStartedHandler from './handlers/getStarted';
+import getStartedHandler from './handlers/get-started';
+import routeHandler from './handlers/router';
 
 export const sendMessage = async (senderId, message) => {
   try {
@@ -32,9 +33,8 @@ export const sendMessage = async (senderId, message) => {
 
 export const handleMessage = (senderId, message) => {
   if (message.text) {
-    sendMessage(senderId, {
-      text: 'Pong',
-    });
+    const quickReply = message.quick_reply.payload;
+    routeHandler(senderId, quickReply);
   }
 };
 
