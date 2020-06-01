@@ -64,7 +64,7 @@ export default {
     },
     {
       type: 'text',
-      text: 'Raise legs,eEnsure legs are above the level of the heart',
+      text: 'Raise legs, Ensure legs are above the level of the heart',
       waitFor: 1,
     },
     {

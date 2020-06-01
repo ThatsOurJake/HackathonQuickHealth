@@ -1,6 +1,7 @@
 import journeyFactory from '../journey-factory';
 
 import burns from './burns';
+import choking from './choking';
 
 const steps = {
   HELP_SOMEONE: [
@@ -40,6 +41,7 @@ const steps = {
     },
   ],
   ...burns,
+  ...choking,
 };
 
 export default journeyFactory(steps);
